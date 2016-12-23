@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.com.nst.contactmanagerpro.MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập tên:" />
+
+    <EditText
+        android:id="@+id/txtNhapTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập tên zô đây"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số phone:" />
+
+    <EditText
+        android:id="@+id/txtNhapPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập số điện thoại zô đây"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu danh bạ"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/lvDanhBa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
